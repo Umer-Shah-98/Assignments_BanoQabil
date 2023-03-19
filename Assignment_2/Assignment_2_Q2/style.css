@@ -1,0 +1,63 @@
+body{
+    background-image: url("./newsletter-02.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    
+}
+p{
+    font-size: 32px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    background-color: #5909da;
+}
+
+.heading{
+    width: 100%;
+    background-color: #8f1717;
+    height: 25px;
+}
+
+input[type=text],input[type=email] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    margin-top: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type=checkbox] {
+    margin-top: 30px;
+  }
+  
+  input[type=submit] {
+    background-color: #0986da;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+    font-size: large;
+  }
+
+  label{
+    color: white;
+  }
+
